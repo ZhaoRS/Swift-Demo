@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E542ECDF1E112F43006CB653 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542ECDE1E112F43006CB653 /* CalculatorLogic.swift */; };
+		E5441D461E111FBD000066E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5441D451E111FBD000066E0 /* AppDelegate.swift */; };
+		E5441D481E111FBD000066E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5441D471E111FBD000066E0 /* ViewController.swift */; };
+		E5441D4B1E111FBD000066E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5441D491E111FBD000066E0 /* Main.storyboard */; };
+		E5441D4D1E111FBD000066E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5441D4C1E111FBD000066E0 /* Assets.xcassets */; };
+		E5441D501E111FBD000066E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5441D4E1E111FBD000066E0 /* LaunchScreen.storyboard */; };
+		E5441D5B1E111FBD000066E0 /* CaculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5441D5A1E111FBD000066E0 /* CaculatorTests.swift */; };
+		E5441D661E111FBD000066E0 /* CaculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5441D651E111FBD000066E0 /* CaculatorUITests.swift */; };
+		E5441D981E112278000066E0 /* 0-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D741E112278000066E0 /* 0-down.png */; };
+		E5441D991E112278000066E0 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D751E112278000066E0 /* 0.png */; };
+		E5441D9A1E112278000066E0 /* 1-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D761E112278000066E0 /* 1-down.png */; };
+		E5441D9B1E112278000066E0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D771E112278000066E0 /* 1.png */; };
+		E5441D9C1E112278000066E0 /* 2-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D781E112278000066E0 /* 2-down.png */; };
+		E5441D9D1E112278000066E0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D791E112278000066E0 /* 2.png */; };
+		E5441D9E1E112278000066E0 /* 3-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D7A1E112278000066E0 /* 3-down.png */; };
+		E5441D9F1E112278000066E0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D7B1E112278000066E0 /* 3.png */; };
+		E5441DA01E112278000066E0 /* 4-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D7C1E112278000066E0 /* 4-down.png */; };
+		E5441DA11E112278000066E0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D7D1E112278000066E0 /* 4.png */; };
+		E5441DA21E112278000066E0 /* 5-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D7E1E112278000066E0 /* 5-down.png */; };
+		E5441DA31E112278000066E0 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D7F1E112278000066E0 /* 5.png */; };
+		E5441DA41E112278000066E0 /* 6-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D801E112278000066E0 /* 6-down.png */; };
+		E5441DA51E112278000066E0 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D811E112278000066E0 /* 6.png */; };
+		E5441DA61E112278000066E0 /* 7-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D821E112278000066E0 /* 7-down.png */; };
+		E5441DA71E112278000066E0 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D831E112278000066E0 /* 7.png */; };
+		E5441DA81E112278000066E0 /* 8-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D841E112278000066E0 /* 8-down.png */; };
+		E5441DA91E112278000066E0 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D851E112278000066E0 /* 8.png */; };
+		E5441DAA1E112278000066E0 /* 9-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D861E112278000066E0 /* 9-down.png */; };
+		E5441DAB1E112278000066E0 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D871E112278000066E0 /* 9.png */; };
+		E5441DAC1E112278000066E0 /* c-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D881E112278000066E0 /* c-down.png */; };
+		E5441DAD1E112278000066E0 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D891E112278000066E0 /* c.png */; };
+		E5441DAE1E112278000066E0 /* Cal.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D8A1E112278000066E0 /* Cal.png */; };
+		E5441DAF1E112278000066E0 /* Decimal-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D8B1E112278000066E0 /* Decimal-down.png */; };
+		E5441DB01E112278000066E0 /* Decimal.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D8C1E112278000066E0 /* Decimal.png */; };
+		E5441DB11E112278000066E0 /* Divide-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D8D1E112278000066E0 /* Divide-down.png */; };
+		E5441DB21E112278000066E0 /* Divide.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D8E1E112278000066E0 /* Divide.png */; };
+		E5441DB31E112279000066E0 /* Equals-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D8F1E112278000066E0 /* Equals-down.png */; };
+		E5441DB41E112279000066E0 /* Equals.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D901E112278000066E0 /* Equals.png */; };
+		E5441DB51E112279000066E0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D911E112278000066E0 /* icon.png */; };
+		E5441DB61E112279000066E0 /* Minus-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D921E112278000066E0 /* Minus-down.png */; };
+		E5441DB71E112279000066E0 /* Minus.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D931E112278000066E0 /* Minus.png */; };
+		E5441DB81E112279000066E0 /* Multiply-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D941E112278000066E0 /* Multiply-down.png */; };
+		E5441DB91E112279000066E0 /* Multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D951E112278000066E0 /* Multiply.png */; };
+		E5441DBA1E112279000066E0 /* Plus-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D961E112278000066E0 /* Plus-down.png */; };
+		E5441DBB1E112279000066E0 /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = E5441D971E112278000066E0 /* Plus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5441D571E111FBD000066E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5441D3A1E111FBD000066E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5441D411E111FBD000066E0;
+			remoteInfo = Caculator;
+		};
+		E5441D621E111FBD000066E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5441D3A1E111FBD000066E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5441D411E111FBD000066E0;
+			remoteInfo = Caculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E542ECDE1E112F43006CB653 /* CalculatorLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
+		E5441D421E111FBD000066E0 /* Caculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5441D451E111FBD000066E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5441D471E111FBD000066E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5441D4A1E111FBD000066E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5441D4C1E111FBD000066E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5441D4F1E111FBD000066E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5441D511E111FBD000066E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5441D561E111FBD000066E0 /* CaculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5441D5A1E111FBD000066E0 /* CaculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorTests.swift; sourceTree = "<group>"; };
+		E5441D5C1E111FBD000066E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5441D611E111FBD000066E0 /* CaculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5441D651E111FBD000066E0 /* CaculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorUITests.swift; sourceTree = "<group>"; };
+		E5441D671E111FBD000066E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5441D741E112278000066E0 /* 0-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-down.png"; sourceTree = "<group>"; };
+		E5441D751E112278000066E0 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		E5441D761E112278000066E0 /* 1-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-down.png"; sourceTree = "<group>"; };
+		E5441D771E112278000066E0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E5441D781E112278000066E0 /* 2-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-down.png"; sourceTree = "<group>"; };
+		E5441D791E112278000066E0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E5441D7A1E112278000066E0 /* 3-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-down.png"; sourceTree = "<group>"; };
+		E5441D7B1E112278000066E0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E5441D7C1E112278000066E0 /* 4-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-down.png"; sourceTree = "<group>"; };
+		E5441D7D1E112278000066E0 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E5441D7E1E112278000066E0 /* 5-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-down.png"; sourceTree = "<group>"; };
+		E5441D7F1E112278000066E0 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		E5441D801E112278000066E0 /* 6-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6-down.png"; sourceTree = "<group>"; };
+		E5441D811E112278000066E0 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		E5441D821E112278000066E0 /* 7-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-down.png"; sourceTree = "<group>"; };
+		E5441D831E112278000066E0 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		E5441D841E112278000066E0 /* 8-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8-down.png"; sourceTree = "<group>"; };
+		E5441D851E112278000066E0 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		E5441D861E112278000066E0 /* 9-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9-down.png"; sourceTree = "<group>"; };
+		E5441D871E112278000066E0 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		E5441D881E112278000066E0 /* c-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c-down.png"; sourceTree = "<group>"; };
+		E5441D891E112278000066E0 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		E5441D8A1E112278000066E0 /* Cal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cal.png; sourceTree = "<group>"; };
+		E5441D8B1E112278000066E0 /* Decimal-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Decimal-down.png"; sourceTree = "<group>"; };
+		E5441D8C1E112278000066E0 /* Decimal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Decimal.png; sourceTree = "<group>"; };
+		E5441D8D1E112278000066E0 /* Divide-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Divide-down.png"; sourceTree = "<group>"; };
+		E5441D8E1E112278000066E0 /* Divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Divide.png; sourceTree = "<group>"; };
+		E5441D8F1E112278000066E0 /* Equals-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Equals-down.png"; sourceTree = "<group>"; };
+		E5441D901E112278000066E0 /* Equals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Equals.png; sourceTree = "<group>"; };
+		E5441D911E112278000066E0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E5441D921E112278000066E0 /* Minus-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minus-down.png"; sourceTree = "<group>"; };
+		E5441D931E112278000066E0 /* Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minus.png; sourceTree = "<group>"; };
+		E5441D941E112278000066E0 /* Multiply-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Multiply-down.png"; sourceTree = "<group>"; };
+		E5441D951E112278000066E0 /* Multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Multiply.png; sourceTree = "<group>"; };
+		E5441D961E112278000066E0 /* Plus-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-down.png"; sourceTree = "<group>"; };
+		E5441D971E112278000066E0 /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plus.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5441D3F1E111FBD000066E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5441D531E111FBD000066E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5441D5E1E111FBD000066E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5441D391E111FBD000066E0 = {
+			isa = PBXGroup;
+			children = (
+				E5441D441E111FBD000066E0 /* Caculator */,
+				E5441D591E111FBD000066E0 /* CaculatorTests */,
+				E5441D641E111FBD000066E0 /* CaculatorUITests */,
+				E5441D431E111FBD000066E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5441D431E111FBD000066E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5441D421E111FBD000066E0 /* Caculator.app */,
+				E5441D561E111FBD000066E0 /* CaculatorTests.xctest */,
+				E5441D611E111FBD000066E0 /* CaculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5441D441E111FBD000066E0 /* Caculator */ = {
+			isa = PBXGroup;
+			children = (
+				E5441D451E111FBD000066E0 /* AppDelegate.swift */,
+				E5441D471E111FBD000066E0 /* ViewController.swift */,
+				E542ECDE1E112F43006CB653 /* CalculatorLogic.swift */,
+				E5441D491E111FBD000066E0 /* Main.storyboard */,
+				E5441D4C1E111FBD000066E0 /* Assets.xcassets */,
+				E5441D4E1E111FBD000066E0 /* LaunchScreen.storyboard */,
+				E5441D511E111FBD000066E0 /* Info.plist */,
+				E5441D731E112278000066E0 /* images */,
+			);
+			path = Caculator;
+			sourceTree = "<group>";
+		};
+		E5441D591E111FBD000066E0 /* CaculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5441D5A1E111FBD000066E0 /* CaculatorTests.swift */,
+				E5441D5C1E111FBD000066E0 /* Info.plist */,
+			);
+			path = CaculatorTests;
+			sourceTree = "<group>";
+		};
+		E5441D641E111FBD000066E0 /* CaculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5441D651E111FBD000066E0 /* CaculatorUITests.swift */,
+				E5441D671E111FBD000066E0 /* Info.plist */,
+			);
+			path = CaculatorUITests;
+			sourceTree = "<group>";
+		};
+		E5441D731E112278000066E0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E5441D741E112278000066E0 /* 0-down.png */,
+				E5441D751E112278000066E0 /* 0.png */,
+				E5441D761E112278000066E0 /* 1-down.png */,
+				E5441D771E112278000066E0 /* 1.png */,
+				E5441D781E112278000066E0 /* 2-down.png */,
+				E5441D791E112278000066E0 /* 2.png */,
+				E5441D7A1E112278000066E0 /* 3-down.png */,
+				E5441D7B1E112278000066E0 /* 3.png */,
+				E5441D7C1E112278000066E0 /* 4-down.png */,
+				E5441D7D1E112278000066E0 /* 4.png */,
+				E5441D7E1E112278000066E0 /* 5-down.png */,
+				E5441D7F1E112278000066E0 /* 5.png */,
+				E5441D801E112278000066E0 /* 6-down.png */,
+				E5441D811E112278000066E0 /* 6.png */,
+				E5441D821E112278000066E0 /* 7-down.png */,
+				E5441D831E112278000066E0 /* 7.png */,
+				E5441D841E112278000066E0 /* 8-down.png */,
+				E5441D851E112278000066E0 /* 8.png */,
+				E5441D861E112278000066E0 /* 9-down.png */,
+				E5441D871E112278000066E0 /* 9.png */,
+				E5441D881E112278000066E0 /* c-down.png */,
+				E5441D891E112278000066E0 /* c.png */,
+				E5441D8A1E112278000066E0 /* Cal.png */,
+				E5441D8B1E112278000066E0 /* Decimal-down.png */,
+				E5441D8C1E112278000066E0 /* Decimal.png */,
+				E5441D8D1E112278000066E0 /* Divide-down.png */,
+				E5441D8E1E112278000066E0 /* Divide.png */,
+				E5441D8F1E112278000066E0 /* Equals-down.png */,
+				E5441D901E112278000066E0 /* Equals.png */,
+				E5441D911E112278000066E0 /* icon.png */,
+				E5441D921E112278000066E0 /* Minus-down.png */,
+				E5441D931E112278000066E0 /* Minus.png */,
+				E5441D941E112278000066E0 /* Multiply-down.png */,
+				E5441D951E112278000066E0 /* Multiply.png */,
+				E5441D961E112278000066E0 /* Plus-down.png */,
+				E5441D971E112278000066E0 /* Plus.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5441D411E111FBD000066E0 /* Caculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5441D6A1E111FBD000066E0 /* Build configuration list for PBXNativeTarget "Caculator" */;
+			buildPhases = (
+				E5441D3E1E111FBD000066E0 /* Sources */,
+				E5441D3F1E111FBD000066E0 /* Frameworks */,
+				E5441D401E111FBD000066E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caculator;
+			productName = Caculator;
+			productReference = E5441D421E111FBD000066E0 /* Caculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5441D551E111FBD000066E0 /* CaculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5441D6D1E111FBD000066E0 /* Build configuration list for PBXNativeTarget "CaculatorTests" */;
+			buildPhases = (
+				E5441D521E111FBD000066E0 /* Sources */,
+				E5441D531E111FBD000066E0 /* Frameworks */,
+				E5441D541E111FBD000066E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5441D581E111FBD000066E0 /* PBXTargetDependency */,
+			);
+			name = CaculatorTests;
+			productName = CaculatorTests;
+			productReference = E5441D561E111FBD000066E0 /* CaculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5441D601E111FBD000066E0 /* CaculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5441D701E111FBD000066E0 /* Build configuration list for PBXNativeTarget "CaculatorUITests" */;
+			buildPhases = (
+				E5441D5D1E111FBD000066E0 /* Sources */,
+				E5441D5E1E111FBD000066E0 /* Frameworks */,
+				E5441D5F1E111FBD000066E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5441D631E111FBD000066E0 /* PBXTargetDependency */,
+			);
+			name = CaculatorUITests;
+			productName = CaculatorUITests;
+			productReference = E5441D611E111FBD000066E0 /* CaculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5441D3A1E111FBD000066E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "赵瑞生";
+				TargetAttributes = {
+					E5441D411E111FBD000066E0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E5441D551E111FBD000066E0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5441D411E111FBD000066E0;
+					};
+					E5441D601E111FBD000066E0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5441D411E111FBD000066E0;
+					};
+				};
+			};
+			buildConfigurationList = E5441D3D1E111FBD000066E0 /* Build configuration list for PBXProject "Caculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5441D391E111FBD000066E0;
+			productRefGroup = E5441D431E111FBD000066E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5441D411E111FBD000066E0 /* Caculator */,
+				E5441D551E111FBD000066E0 /* CaculatorTests */,
+				E5441D601E111FBD000066E0 /* CaculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5441D401E111FBD000066E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5441DBB1E112279000066E0 /* Plus.png in Resources */,
+				E5441DB71E112279000066E0 /* Minus.png in Resources */,
+				E5441D9F1E112278000066E0 /* 3.png in Resources */,
+				E5441D501E111FBD000066E0 /* LaunchScreen.storyboard in Resources */,
+				E5441DA01E112278000066E0 /* 4-down.png in Resources */,
+				E5441DAF1E112278000066E0 /* Decimal-down.png in Resources */,
+				E5441DA21E112278000066E0 /* 5-down.png in Resources */,
+				E5441DAE1E112278000066E0 /* Cal.png in Resources */,
+				E5441DAD1E112278000066E0 /* c.png in Resources */,
+				E5441DB11E112278000066E0 /* Divide-down.png in Resources */,
+				E5441DB41E112279000066E0 /* Equals.png in Resources */,
+				E5441DA11E112278000066E0 /* 4.png in Resources */,
+				E5441DBA1E112279000066E0 /* Plus-down.png in Resources */,
+				E5441D991E112278000066E0 /* 0.png in Resources */,
+				E5441DA91E112278000066E0 /* 8.png in Resources */,
+				E5441DAB1E112278000066E0 /* 9.png in Resources */,
+				E5441DA81E112278000066E0 /* 8-down.png in Resources */,
+				E5441DA51E112278000066E0 /* 6.png in Resources */,
+				E5441DB31E112279000066E0 /* Equals-down.png in Resources */,
+				E5441DB01E112278000066E0 /* Decimal.png in Resources */,
+				E5441DB51E112279000066E0 /* icon.png in Resources */,
+				E5441DA31E112278000066E0 /* 5.png in Resources */,
+				E5441D4D1E111FBD000066E0 /* Assets.xcassets in Resources */,
+				E5441DB81E112279000066E0 /* Multiply-down.png in Resources */,
+				E5441DB91E112279000066E0 /* Multiply.png in Resources */,
+				E5441DA41E112278000066E0 /* 6-down.png in Resources */,
+				E5441DAC1E112278000066E0 /* c-down.png in Resources */,
+				E5441DB61E112279000066E0 /* Minus-down.png in Resources */,
+				E5441D9E1E112278000066E0 /* 3-down.png in Resources */,
+				E5441DB21E112278000066E0 /* Divide.png in Resources */,
+				E5441DA61E112278000066E0 /* 7-down.png in Resources */,
+				E5441D9A1E112278000066E0 /* 1-down.png in Resources */,
+				E5441D9C1E112278000066E0 /* 2-down.png in Resources */,
+				E5441D981E112278000066E0 /* 0-down.png in Resources */,
+				E5441D9D1E112278000066E0 /* 2.png in Resources */,
+				E5441D4B1E111FBD000066E0 /* Main.storyboard in Resources */,
+				E5441DAA1E112278000066E0 /* 9-down.png in Resources */,
+				E5441D9B1E112278000066E0 /* 1.png in Resources */,
+				E5441DA71E112278000066E0 /* 7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5441D541E111FBD000066E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5441D5F1E111FBD000066E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5441D3E1E111FBD000066E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5441D481E111FBD000066E0 /* ViewController.swift in Sources */,
+				E5441D461E111FBD000066E0 /* AppDelegate.swift in Sources */,
+				E542ECDF1E112F43006CB653 /* CalculatorLogic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5441D521E111FBD000066E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5441D5B1E111FBD000066E0 /* CaculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5441D5D1E111FBD000066E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5441D661E111FBD000066E0 /* CaculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5441D581E111FBD000066E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5441D411E111FBD000066E0 /* Caculator */;
+			targetProxy = E5441D571E111FBD000066E0 /* PBXContainerItemProxy */;
+		};
+		E5441D631E111FBD000066E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5441D411E111FBD000066E0 /* Caculator */;
+			targetProxy = E5441D621E111FBD000066E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5441D491E111FBD000066E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5441D4A1E111FBD000066E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5441D4E1E111FBD000066E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5441D4F1E111FBD000066E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5441D681E111FBD000066E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5441D691E111FBD000066E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5441D6B1E111FBD000066E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.Caculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E5441D6C1E111FBD000066E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.Caculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E5441D6E1E111FBD000066E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.CaculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caculator.app/Caculator";
+			};
+			name = Debug;
+		};
+		E5441D6F1E111FBD000066E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.CaculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caculator.app/Caculator";
+			};
+			name = Release;
+		};
+		E5441D711E111FBD000066E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.CaculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Caculator;
+			};
+			name = Debug;
+		};
+		E5441D721E111FBD000066E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.CaculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Caculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5441D3D1E111FBD000066E0 /* Build configuration list for PBXProject "Caculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5441D681E111FBD000066E0 /* Debug */,
+				E5441D691E111FBD000066E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5441D6A1E111FBD000066E0 /* Build configuration list for PBXNativeTarget "Caculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5441D6B1E111FBD000066E0 /* Debug */,
+				E5441D6C1E111FBD000066E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5441D6D1E111FBD000066E0 /* Build configuration list for PBXNativeTarget "CaculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5441D6E1E111FBD000066E0 /* Debug */,
+				E5441D6F1E111FBD000066E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5441D701E111FBD000066E0 /* Build configuration list for PBXNativeTarget "CaculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5441D711E111FBD000066E0 /* Debug */,
+				E5441D721E111FBD000066E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5441D3A1E111FBD000066E0 /* Project object */;
+}
