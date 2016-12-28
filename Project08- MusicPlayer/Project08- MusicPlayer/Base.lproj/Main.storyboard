@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project08__MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EB6-3Z-QnI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fOC-Gg-KRC">
+                                <rect key="frame" x="50" y="95" width="274" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="7Fi-1I-v6K"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8H-ab-cre">
+                                <rect key="frame" x="145" y="401" width="84" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="2yb-sa-8Bp"/>
+                                    <constraint firstAttribute="height" constant="21" id="3ab-xd-tf0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yV-Tl-ddJ">
+                                <rect key="frame" x="134" y="469" width="107" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="79Z-TS-nKX"/>
+                                    <constraint firstAttribute="height" constant="21" id="ENZ-hI-sZ2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnI-UC-6pn">
+                                <rect key="frame" x="149" y="560" width="76" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="CRu-sQ-bII"/>
+                                    <constraint firstAttribute="height" constant="62" id="RXW-Gw-Kj8"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fOC-Gg-KRC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="75" id="6WR-2M-juW"/>
+                            <constraint firstItem="fOC-Gg-KRC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="91k-ph-GHq"/>
+                            <constraint firstItem="VnI-UC-6pn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ELS-6A-RsL"/>
+                            <constraint firstItem="VnI-UC-6pn" firstAttribute="top" secondItem="8yV-Tl-ddJ" secondAttribute="bottom" constant="70" id="KUM-7u-Hok"/>
+                            <constraint firstItem="fOC-Gg-KRC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="UUS-Wa-nFC"/>
+                            <constraint firstItem="EB6-3Z-QnI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="deL-GI-r2n"/>
+                            <constraint firstItem="EB6-3Z-QnI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fEL-m0-u3U"/>
+                            <constraint firstItem="8yV-Tl-ddJ" firstAttribute="top" secondItem="M8H-ab-cre" secondAttribute="bottom" constant="47" id="gx4-yU-I0d"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VnI-UC-6pn" secondAttribute="bottom" constant="45" id="oFQ-2i-XY8"/>
+                            <constraint firstAttribute="trailing" secondItem="EB6-3Z-QnI" secondAttribute="trailing" id="oNp-38-if4"/>
+                            <constraint firstItem="M8H-ab-cre" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pXx-hG-Mvv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EB6-3Z-QnI" secondAttribute="bottom" id="qq1-K3-5p9"/>
+                            <constraint firstItem="8yV-Tl-ddJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wH3-aW-UvE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="albumImage" destination="fOC-Gg-KRC" id="xhZ-99-PyU"/>
+                        <outlet property="artistLabel" destination="8yV-Tl-ddJ" id="ly2-MX-t0K"/>
+                        <outlet property="bgImage" destination="EB6-3Z-QnI" id="RAl-us-cv9"/>
+                        <outlet property="playButton" destination="VnI-UC-6pn" id="mZd-SD-hc5"/>
+                        <outlet property="songLabel" destination="M8H-ab-cre" id="daw-Cr-26a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
