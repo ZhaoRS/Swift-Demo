@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project13_FilterGaussianBlur" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="audi" translatesAutoresizingMaskIntoConstraints="NO" id="Z02-67-gDB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="g91-57-ZGB">
+                                <rect key="frame" x="48" y="587" width="279" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="pU5-aX-9gz"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="prT-0H-AOG"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yv5-ek-xgR">
+                                <rect key="frame" x="30" y="527" width="315" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XYk-es-RJU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yv5-ek-xgR" secondAttribute="trailing" constant="30" id="0jK-NU-Y6S"/>
+                            <constraint firstItem="Z02-67-gDB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6ub-nP-AKv"/>
+                            <constraint firstItem="g91-57-ZGB" firstAttribute="top" secondItem="yv5-ek-xgR" secondAttribute="bottom" constant="30" id="7Z3-M3-L34"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z02-67-gDB" secondAttribute="bottom" id="AWa-xM-Ii4"/>
+                            <constraint firstAttribute="trailing" secondItem="g91-57-ZGB" secondAttribute="trailing" constant="50" id="BYV-RS-Vaj"/>
+                            <constraint firstItem="g91-57-ZGB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="YTm-GX-xkj"/>
+                            <constraint firstItem="yv5-ek-xgR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="ZHo-Zz-udA"/>
+                            <constraint firstAttribute="trailing" secondItem="Z02-67-gDB" secondAttribute="trailing" id="eQZ-dH-0ed"/>
+                            <constraint firstItem="Z02-67-gDB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fje-qd-7ab"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g91-57-ZGB" secondAttribute="bottom" constant="50" id="qhU-Av-uNj"/>
+                            <constraint firstItem="g91-57-ZGB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ybC-P1-gKd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bgImageView" destination="Z02-67-gDB" id="hW8-Ke-23F"/>
+                        <outlet property="horizontalSlider" destination="g91-57-ZGB" id="414-aZ-Sdm"/>
+                        <outlet property="titleLabel" destination="yv5-ek-xgR" id="tmO-Am-5vo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="audi" width="750" height="1334"/>
+    </resources>
+</document>
