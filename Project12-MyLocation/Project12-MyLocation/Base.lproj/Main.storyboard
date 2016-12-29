@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project12_MyLocation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star" translatesAutoresizingMaskIntoConstraints="NO" id="PZQ-Ze-ZRw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ees-dL-X5c">
+                                <rect key="frame" x="30" y="51" width="293" height="58"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnD-cY-1Am">
+                                <rect key="frame" x="53" y="525" width="270" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Show My Location" backgroundImage="Find my location">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMyLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uZP-39-z5S"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PZQ-Ze-ZRw" secondAttribute="bottom" id="9sK-MN-orK"/>
+                            <constraint firstItem="PZQ-Ze-ZRw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="AQX-D3-EfO"/>
+                            <constraint firstAttribute="trailing" secondItem="ees-dL-X5c" secondAttribute="trailing" constant="30" id="Cno-DT-Z1F"/>
+                            <constraint firstAttribute="trailing" secondItem="PZQ-Ze-ZRw" secondAttribute="trailing" id="GV7-mY-GtS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tnD-cY-1Am" secondAttribute="bottom" constant="64" id="GaZ-sn-G7b"/>
+                            <constraint firstItem="tnD-cY-1Am" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="53" id="J6H-dt-EOu"/>
+                            <constraint firstItem="PZQ-Ze-ZRw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="e5Y-lR-JM6"/>
+                            <constraint firstItem="ees-dL-X5c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="kRu-pl-8im"/>
+                            <constraint firstAttribute="trailing" secondItem="tnD-cY-1Am" secondAttribute="trailing" constant="52" id="pWN-hD-XIz"/>
+                            <constraint firstItem="ees-dL-X5c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="31" id="uxd-kC-46f"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LocationLabel" destination="ees-dL-X5c" id="EWm-Q1-ewY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Find my location" width="326" height="78"/>
+        <image name="Star" width="750" height="1334"/>
+    </resources>
+</document>
