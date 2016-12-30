@@ -8,11 +8,34 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: VideoSplashViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        setupVideoBackground()
+    }
+    
+    
+    //MARK：配置
+    func setupVideoBackground() {
+        let videoPath = Bundle.main.path(forResource: "spotify", ofType: "mp4")
+        let videoUrl = URL(fileURLWithPath: videoPath!)
+        
+        
+        videoFrame = view.frame
+        fillMode = ScalingMode.resizeAspectFill
+        alwaysRepeat = true
+        sound = false
+        startTime = 2.0
+        alpha = 0.8
+        
+        contentURL = videoUrl
+        view.isUserInteractionEnabled = false
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

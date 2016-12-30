@@ -14,6 +14,9 @@
 		E5A8B1291E150D5B00B6EB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A8B1271E150D5B00B6EB55 /* LaunchScreen.storyboard */; };
 		E5A8B1341E150D5B00B6EB55 /* Project14_VideoBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8B1331E150D5B00B6EB55 /* Project14_VideoBackgroundTests.swift */; };
 		E5A8B13F1E150D5B00B6EB55 /* Project14_VideoBackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8B13E1E150D5B00B6EB55 /* Project14_VideoBackgroundUITests.swift */; };
+		E5A8B14D1E150F9700B6EB55 /* spotify.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E5A8B14C1E150F9700B6EB55 /* spotify.mp4 */; };
+		E5A8B14F1E1514FC00B6EB55 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8B14E1E1514FC00B6EB55 /* VideoSplashViewController.swift */; };
+		E5A8B1511E1523F200B6EB55 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8B1501E1523F200B6EB55 /* VideoCutter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E5A8B13A1E150D5B00B6EB55 /* Project14-VideoBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project14-VideoBackgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A8B13E1E150D5B00B6EB55 /* Project14_VideoBackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project14_VideoBackgroundUITests.swift; sourceTree = "<group>"; };
 		E5A8B1401E150D5B00B6EB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A8B14C1E150F9700B6EB55 /* spotify.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotify.mp4; sourceTree = "<group>"; };
+		E5A8B14E1E1514FC00B6EB55 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		E5A8B1501E1523F200B6EB55 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,11 @@
 			children = (
 				E5A8B11E1E150D5B00B6EB55 /* AppDelegate.swift */,
 				E5A8B1201E150D5B00B6EB55 /* ViewController.swift */,
+				E5A8B1501E1523F200B6EB55 /* VideoCutter.swift */,
+				E5A8B14E1E1514FC00B6EB55 /* VideoSplashViewController.swift */,
 				E5A8B1221E150D5B00B6EB55 /* Main.storyboard */,
 				E5A8B1251E150D5B00B6EB55 /* Assets.xcassets */,
+				E5A8B14C1E150F9700B6EB55 /* spotify.mp4 */,
 				E5A8B1271E150D5B00B6EB55 /* LaunchScreen.storyboard */,
 				E5A8B12A1E150D5B00B6EB55 /* Info.plist */,
 			);
@@ -232,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5A8B14D1E150F9700B6EB55 /* spotify.mp4 in Resources */,
 				E5A8B1291E150D5B00B6EB55 /* LaunchScreen.storyboard in Resources */,
 				E5A8B1261E150D5B00B6EB55 /* Assets.xcassets in Resources */,
 				E5A8B1241E150D5B00B6EB55 /* Main.storyboard in Resources */,
@@ -261,6 +271,8 @@
 			files = (
 				E5A8B1211E150D5B00B6EB55 /* ViewController.swift in Sources */,
 				E5A8B11F1E150D5B00B6EB55 /* AppDelegate.swift in Sources */,
+				E5A8B1511E1523F200B6EB55 /* VideoCutter.swift in Sources */,
+				E5A8B14F1E1514FC00B6EB55 /* VideoSplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
