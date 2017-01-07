@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project17_SetDateAndTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fL9-wV-KRQ">
+                                <rect key="frame" x="50" y="138" width="275" height="30"/>
+                                <state key="normal" title="设置日期和时间"/>
+                                <connections>
+                                    <segue destination="Vn5-ex-b2i" kind="show" id="YxM-5g-rxR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaV-N7-SIq">
+                                <rect key="frame" x="50" y="70" width="275" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fL9-wV-KRQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8pT-Vg-LDp"/>
+                            <constraint firstItem="LaV-N7-SIq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="BdK-yh-FYD"/>
+                            <constraint firstItem="LaV-N7-SIq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XSj-SJ-ZzA"/>
+                            <constraint firstItem="fL9-wV-KRQ" firstAttribute="top" secondItem="LaV-N7-SIq" secondAttribute="bottom" constant="50" id="ZUi-mv-OVW"/>
+                            <constraint firstItem="fL9-wV-KRQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="nB4-1F-7We"/>
+                            <constraint firstItem="LaV-N7-SIq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="yxP-uC-Gdr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yki-Pz-bLO"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="LaV-N7-SIq" id="sgf-k4-ziN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-927" y="690"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5jE-A7-EAJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vn5-ex-b2i" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dEC-HV-Wtu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6N3-M2-5LE" kind="relationship" relationship="rootViewController" id="q31-3S-56q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d0g-Xb-r2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78" y="679"/>
+        </scene>
+        <!--设置时间-->
+        <scene sceneID="l3j-eD-BIK">
+            <objects>
+                <viewController id="6N3-M2-5LE" customClass="SetDateController" customModule="Project17_SetDateAndTime" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="307-hm-bnk"/>
+                        <viewControllerLayoutGuide type="bottom" id="CR5-Qz-2G2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gEm-fl-FtM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="QMZ-a4-gTA">
+                                <rect key="frame" x="0.0" y="94" width="375" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="505367284.11038899">
+                                    <!--2017-01-06 03:48:04 +0000-->
+                                </date>
+                            </datePicker>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Z9B-BU-w6Z">
+                                <rect key="frame" x="0.0" y="340" width="375" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="505367338.50327998">
+                                    <!--2017-01-06 03:48:58 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1k0-Go-M2C">
+                                <rect key="frame" x="30" y="584" width="314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QMZ-a4-gTA" firstAttribute="centerX" secondItem="gEm-fl-FtM" secondAttribute="centerX" id="4ol-xn-FTu"/>
+                            <constraint firstItem="QMZ-a4-gTA" firstAttribute="top" secondItem="307-hm-bnk" secondAttribute="bottom" constant="30" id="6Jk-jU-KhP"/>
+                            <constraint firstItem="Z9B-BU-w6Z" firstAttribute="centerX" secondItem="gEm-fl-FtM" secondAttribute="centerX" id="Hgh-fe-1CL"/>
+                            <constraint firstItem="QMZ-a4-gTA" firstAttribute="leading" secondItem="gEm-fl-FtM" secondAttribute="leading" id="STh-7G-eYp"/>
+                            <constraint firstAttribute="trailing" secondItem="QMZ-a4-gTA" secondAttribute="trailing" id="YNY-5g-V3o"/>
+                            <constraint firstItem="Z9B-BU-w6Z" firstAttribute="top" secondItem="QMZ-a4-gTA" secondAttribute="bottom" constant="30" id="Yhv-FJ-U33"/>
+                            <constraint firstItem="1k0-Go-M2C" firstAttribute="top" secondItem="Z9B-BU-w6Z" secondAttribute="bottom" constant="28" id="dVK-YE-45r"/>
+                            <constraint firstItem="1k0-Go-M2C" firstAttribute="leading" secondItem="gEm-fl-FtM" secondAttribute="leading" constant="30" id="mxK-Qs-KSu"/>
+                            <constraint firstAttribute="trailing" secondItem="Z9B-BU-w6Z" secondAttribute="trailing" id="pLq-Rh-Cvg"/>
+                            <constraint firstItem="Z9B-BU-w6Z" firstAttribute="leading" secondItem="gEm-fl-FtM" secondAttribute="leading" id="sUV-KN-ksC"/>
+                            <constraint firstItem="1k0-Go-M2C" firstAttribute="centerX" secondItem="gEm-fl-FtM" secondAttribute="centerX" id="sZf-ku-So3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="设置时间" id="CUD-oY-GNR">
+                        <barButtonItem key="leftBarButtonItem" title="返回" id="rZh-Ai-OGt">
+                            <connections>
+                                <action selector="backButtonAction:" destination="6N3-M2-5LE" id="AKJ-jb-sbd"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="完成" id="gVp-pr-OQN">
+                            <connections>
+                                <action selector="doneButtonAction:" destination="6N3-M2-5LE" id="yy7-Nu-D89"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="currentTimeLabel" destination="1k0-Go-M2C" id="VPo-fq-t0l"/>
+                        <outlet property="datePicker" destination="QMZ-a4-gTA" id="j9q-0U-8Ys"/>
+                        <outlet property="timePicker" destination="Z9B-BU-w6Z" id="TbU-iZ-VwE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fOH-vm-Euc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="681" y="679"/>
+        </scene>
+    </scenes>
+</document>
