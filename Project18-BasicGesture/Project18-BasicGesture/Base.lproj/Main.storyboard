@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Top View Controller-->
+        <scene sceneID="alw-WL-O0i">
+            <objects>
+                <viewController id="2kz-rm-5k3" customClass="TopViewController" customModule="Project18_BasicGesture" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="leL-Qq-AFh"/>
+                        <viewControllerLayoutGuide type="bottom" id="1K6-OT-DfY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fF2-8T-fJR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Top" translatesAutoresizingMaskIntoConstraints="NO" id="tRu-5k-v1t">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="iWl-8T-GJb" appends="YES" id="nxX-9M-n84"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tRu-5k-v1t" firstAttribute="top" secondItem="fF2-8T-fJR" secondAttribute="top" id="1YY-af-wl1"/>
+                            <constraint firstItem="1K6-OT-DfY" firstAttribute="top" secondItem="tRu-5k-v1t" secondAttribute="bottom" id="HTt-QN-Ti3"/>
+                            <constraint firstAttribute="trailing" secondItem="tRu-5k-v1t" secondAttribute="trailing" id="IsE-QT-Dkh"/>
+                            <constraint firstItem="tRu-5k-v1t" firstAttribute="leading" secondItem="fF2-8T-fJR" secondAttribute="leading" id="bSm-5w-77i"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="topToMiddle" id="kJN-SD-h4n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9t0-FQ-cKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="iWl-8T-GJb">
+                    <connections>
+                        <action selector="topSwip:" destination="2kz-rm-5k3" id="fOk-IN-NEH"/>
+                        <outlet property="delegate" destination="2kz-rm-5k3" id="C0k-tK-cy7"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-695.20000000000005" y="138.98050974512745"/>
+        </scene>
+        <!--Middle View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MiddleViewController" customModule="Project18_BasicGesture" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Middle" translatesAutoresizingMaskIntoConstraints="NO" id="Zru-mB-cLi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="J1f-CI-BPK" appends="YES" id="ktk-8N-NrZ"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zru-mB-cLi" secondAttribute="bottom" id="EvG-wO-iLN"/>
+                            <constraint firstItem="Zru-mB-cLi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="N0m-ur-XB8"/>
+                            <constraint firstItem="Zru-mB-cLi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="X6S-gE-iml"/>
+                            <constraint firstAttribute="trailing" secondItem="Zru-mB-cLi" secondAttribute="trailing" id="rcd-Oe-Axh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="2kz-rm-5k3" kind="presentation" identifier="middleToBottom" id="geh-5F-hjV"/>
+                        <segue destination="egk-Rv-5te" kind="presentation" identifier="middleToTop" id="ijh-tA-J7D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="J1f-CI-BPK">
+                    <connections>
+                        <action selector="leftSwip:" destination="BYZ-38-t0r" id="s0Y-ae-B5C"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="LTn-De-yVM"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Bottom View Controller-->
+        <scene sceneID="pTc-va-0dM">
+            <objects>
+                <viewController id="egk-Rv-5te" customClass="BottomViewController" customModule="Project18_BasicGesture" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ULz-mI-wuP"/>
+                        <viewControllerLayoutGuide type="bottom" id="WTq-yu-1s3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kwG-yQ-JxU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="hOJ-sK-1Ln">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="dM6-KF-mcJ" appends="YES" id="ScN-bf-5Jd"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hOJ-sK-1Ln" secondAttribute="trailing" id="55y-UO-4ly"/>
+                            <constraint firstItem="WTq-yu-1s3" firstAttribute="top" secondItem="hOJ-sK-1Ln" secondAttribute="bottom" id="WuC-Hs-Luv"/>
+                            <constraint firstItem="hOJ-sK-1Ln" firstAttribute="top" secondItem="kwG-yQ-JxU" secondAttribute="top" id="Yup-l6-RxM"/>
+                            <constraint firstItem="hOJ-sK-1Ln" firstAttribute="leading" secondItem="kwG-yQ-JxU" secondAttribute="leading" id="gSk-GE-EcZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bom-q4-MOf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="dM6-KF-mcJ">
+                    <connections>
+                        <action selector="rightSwipe:" destination="egk-Rv-5te" id="Ero-lX-sLQ"/>
+                        <outlet property="delegate" destination="egk-Rv-5te" id="e29-5W-LzN"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="805.60000000000002" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bottom" width="750" height="1334"/>
+        <image name="Middle" width="750" height="1334"/>
+        <image name="Top" width="750" height="1334"/>
+    </resources>
+</document>
