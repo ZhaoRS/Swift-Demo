@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E58A93171E34590000AC1456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A93161E34590000AC1456 /* AppDelegate.swift */; };
+		E58A93191E34590000AC1456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A93181E34590000AC1456 /* ViewController.swift */; };
+		E58A931C1E34590000AC1456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58A931A1E34590000AC1456 /* Main.storyboard */; };
+		E58A931E1E34590000AC1456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58A931D1E34590000AC1456 /* Assets.xcassets */; };
+		E58A93211E34590000AC1456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58A931F1E34590000AC1456 /* LaunchScreen.storyboard */; };
+		E58A932C1E34590000AC1456 /* Project20_CollapsibleTableSectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A932B1E34590000AC1456 /* Project20_CollapsibleTableSectionTests.swift */; };
+		E58A93371E34590000AC1456 /* Project20_CollapsibleTableSectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A93361E34590000AC1456 /* Project20_CollapsibleTableSectionUITests.swift */; };
+		E58A93471E347D4E00AC1456 /* CollapsibleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A93461E347D4E00AC1456 /* CollapsibleHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E58A93281E34590000AC1456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58A930B1E34590000AC1456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58A93121E34590000AC1456;
+			remoteInfo = "Project20-CollapsibleTableSection";
+		};
+		E58A93331E34590000AC1456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58A930B1E34590000AC1456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58A93121E34590000AC1456;
+			remoteInfo = "Project20-CollapsibleTableSection";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E58A93131E34590000AC1456 /* Project20-CollapsibleTableSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project20-CollapsibleTableSection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58A93161E34590000AC1456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E58A93181E34590000AC1456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E58A931B1E34590000AC1456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E58A931D1E34590000AC1456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E58A93201E34590000AC1456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E58A93221E34590000AC1456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58A93271E34590000AC1456 /* Project20-CollapsibleTableSectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project20-CollapsibleTableSectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58A932B1E34590000AC1456 /* Project20_CollapsibleTableSectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project20_CollapsibleTableSectionTests.swift; sourceTree = "<group>"; };
+		E58A932D1E34590000AC1456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58A93321E34590000AC1456 /* Project20-CollapsibleTableSectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project20-CollapsibleTableSectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58A93361E34590000AC1456 /* Project20_CollapsibleTableSectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project20_CollapsibleTableSectionUITests.swift; sourceTree = "<group>"; };
+		E58A93381E34590000AC1456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58A93461E347D4E00AC1456 /* CollapsibleHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58A93101E34590000AC1456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58A93241E34590000AC1456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58A932F1E34590000AC1456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E58A930A1E34590000AC1456 = {
+			isa = PBXGroup;
+			children = (
+				E58A93151E34590000AC1456 /* Project20-CollapsibleTableSection */,
+				E58A932A1E34590000AC1456 /* Project20-CollapsibleTableSectionTests */,
+				E58A93351E34590000AC1456 /* Project20-CollapsibleTableSectionUITests */,
+				E58A93141E34590000AC1456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E58A93141E34590000AC1456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58A93131E34590000AC1456 /* Project20-CollapsibleTableSection.app */,
+				E58A93271E34590000AC1456 /* Project20-CollapsibleTableSectionTests.xctest */,
+				E58A93321E34590000AC1456 /* Project20-CollapsibleTableSectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58A93151E34590000AC1456 /* Project20-CollapsibleTableSection */ = {
+			isa = PBXGroup;
+			children = (
+				E58A93161E34590000AC1456 /* AppDelegate.swift */,
+				E58A93181E34590000AC1456 /* ViewController.swift */,
+				E58A93461E347D4E00AC1456 /* CollapsibleHeader.swift */,
+				E58A931A1E34590000AC1456 /* Main.storyboard */,
+				E58A931D1E34590000AC1456 /* Assets.xcassets */,
+				E58A931F1E34590000AC1456 /* LaunchScreen.storyboard */,
+				E58A93221E34590000AC1456 /* Info.plist */,
+			);
+			path = "Project20-CollapsibleTableSection";
+			sourceTree = "<group>";
+		};
+		E58A932A1E34590000AC1456 /* Project20-CollapsibleTableSectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				E58A932B1E34590000AC1456 /* Project20_CollapsibleTableSectionTests.swift */,
+				E58A932D1E34590000AC1456 /* Info.plist */,
+			);
+			path = "Project20-CollapsibleTableSectionTests";
+			sourceTree = "<group>";
+		};
+		E58A93351E34590000AC1456 /* Project20-CollapsibleTableSectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E58A93361E34590000AC1456 /* Project20_CollapsibleTableSectionUITests.swift */,
+				E58A93381E34590000AC1456 /* Info.plist */,
+			);
+			path = "Project20-CollapsibleTableSectionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E58A93121E34590000AC1456 /* Project20-CollapsibleTableSection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58A933B1E34590000AC1456 /* Build configuration list for PBXNativeTarget "Project20-CollapsibleTableSection" */;
+			buildPhases = (
+				E58A930F1E34590000AC1456 /* Sources */,
+				E58A93101E34590000AC1456 /* Frameworks */,
+				E58A93111E34590000AC1456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project20-CollapsibleTableSection";
+			productName = "Project20-CollapsibleTableSection";
+			productReference = E58A93131E34590000AC1456 /* Project20-CollapsibleTableSection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E58A93261E34590000AC1456 /* Project20-CollapsibleTableSectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58A933E1E34590000AC1456 /* Build configuration list for PBXNativeTarget "Project20-CollapsibleTableSectionTests" */;
+			buildPhases = (
+				E58A93231E34590000AC1456 /* Sources */,
+				E58A93241E34590000AC1456 /* Frameworks */,
+				E58A93251E34590000AC1456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58A93291E34590000AC1456 /* PBXTargetDependency */,
+			);
+			name = "Project20-CollapsibleTableSectionTests";
+			productName = "Project20-CollapsibleTableSectionTests";
+			productReference = E58A93271E34590000AC1456 /* Project20-CollapsibleTableSectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E58A93311E34590000AC1456 /* Project20-CollapsibleTableSectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58A93411E34590000AC1456 /* Build configuration list for PBXNativeTarget "Project20-CollapsibleTableSectionUITests" */;
+			buildPhases = (
+				E58A932E1E34590000AC1456 /* Sources */,
+				E58A932F1E34590000AC1456 /* Frameworks */,
+				E58A93301E34590000AC1456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58A93341E34590000AC1456 /* PBXTargetDependency */,
+			);
+			name = "Project20-CollapsibleTableSectionUITests";
+			productName = "Project20-CollapsibleTableSectionUITests";
+			productReference = E58A93321E34590000AC1456 /* Project20-CollapsibleTableSectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E58A930B1E34590000AC1456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "赵瑞生";
+				TargetAttributes = {
+					E58A93121E34590000AC1456 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E58A93261E34590000AC1456 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E58A93121E34590000AC1456;
+					};
+					E58A93311E34590000AC1456 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E58A93121E34590000AC1456;
+					};
+				};
+			};
+			buildConfigurationList = E58A930E1E34590000AC1456 /* Build configuration list for PBXProject "Project20-CollapsibleTableSection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E58A930A1E34590000AC1456;
+			productRefGroup = E58A93141E34590000AC1456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E58A93121E34590000AC1456 /* Project20-CollapsibleTableSection */,
+				E58A93261E34590000AC1456 /* Project20-CollapsibleTableSectionTests */,
+				E58A93311E34590000AC1456 /* Project20-CollapsibleTableSectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E58A93111E34590000AC1456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58A93211E34590000AC1456 /* LaunchScreen.storyboard in Resources */,
+				E58A931E1E34590000AC1456 /* Assets.xcassets in Resources */,
+				E58A931C1E34590000AC1456 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58A93251E34590000AC1456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58A93301E34590000AC1456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58A930F1E34590000AC1456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58A93471E347D4E00AC1456 /* CollapsibleHeader.swift in Sources */,
+				E58A93191E34590000AC1456 /* ViewController.swift in Sources */,
+				E58A93171E34590000AC1456 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58A93231E34590000AC1456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58A932C1E34590000AC1456 /* Project20_CollapsibleTableSectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58A932E1E34590000AC1456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58A93371E34590000AC1456 /* Project20_CollapsibleTableSectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E58A93291E34590000AC1456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58A93121E34590000AC1456 /* Project20-CollapsibleTableSection */;
+			targetProxy = E58A93281E34590000AC1456 /* PBXContainerItemProxy */;
+		};
+		E58A93341E34590000AC1456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58A93121E34590000AC1456 /* Project20-CollapsibleTableSection */;
+			targetProxy = E58A93331E34590000AC1456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E58A931A1E34590000AC1456 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58A931B1E34590000AC1456 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E58A931F1E34590000AC1456 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58A93201E34590000AC1456 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E58A93391E34590000AC1456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E58A933A1E34590000AC1456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E58A933C1E34590000AC1456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project20-CollapsibleTableSection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZRS.Project20-CollapsibleTableSection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E58A933D1E34590000AC1456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project20-CollapsibleTableSection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZRS.Project20-CollapsibleTableSection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E58A933F1E34590000AC1456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project20-CollapsibleTableSectionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZRS.Project20-CollapsibleTableSectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project20-CollapsibleTableSection.app/Project20-CollapsibleTableSection";
+			};
+			name = Debug;
+		};
+		E58A93401E34590000AC1456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project20-CollapsibleTableSectionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZRS.Project20-CollapsibleTableSectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project20-CollapsibleTableSection.app/Project20-CollapsibleTableSection";
+			};
+			name = Release;
+		};
+		E58A93421E34590000AC1456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Project20-CollapsibleTableSectionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZRS.Project20-CollapsibleTableSectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Project20-CollapsibleTableSection";
+			};
+			name = Debug;
+		};
+		E58A93431E34590000AC1456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Project20-CollapsibleTableSectionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZRS.Project20-CollapsibleTableSectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Project20-CollapsibleTableSection";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58A930E1E34590000AC1456 /* Build configuration list for PBXProject "Project20-CollapsibleTableSection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58A93391E34590000AC1456 /* Debug */,
+				E58A933A1E34590000AC1456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58A933B1E34590000AC1456 /* Build configuration list for PBXNativeTarget "Project20-CollapsibleTableSection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58A933C1E34590000AC1456 /* Debug */,
+				E58A933D1E34590000AC1456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E58A933E1E34590000AC1456 /* Build configuration list for PBXNativeTarget "Project20-CollapsibleTableSectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58A933F1E34590000AC1456 /* Debug */,
+				E58A93401E34590000AC1456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E58A93411E34590000AC1456 /* Build configuration list for PBXNativeTarget "Project20-CollapsibleTableSectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58A93421E34590000AC1456 /* Debug */,
+				E58A93431E34590000AC1456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E58A930B1E34590000AC1456 /* Project object */;
+}
