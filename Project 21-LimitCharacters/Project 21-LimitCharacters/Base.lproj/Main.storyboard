@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_21_LimitCharacters" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Aq9-LU-EB1">
+                                <rect key="frame" x="0.0" y="60" width="375" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="7t2-Kc-7Vh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="GOH-Qx-iQW"/>
+                                </connections>
+                            </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NkL-Dt-SdN">
+                                <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afN-cs-omZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="afN-cs-omZ" secondAttribute="bottom" id="3NQ-hx-z3d"/>
+                                    <constraint firstItem="afN-cs-omZ" firstAttribute="leading" secondItem="NkL-Dt-SdN" secondAttribute="leading" id="84l-7z-qu7"/>
+                                    <constraint firstAttribute="trailing" secondItem="afN-cs-omZ" secondAttribute="trailing" id="MgU-1W-xJd"/>
+                                    <constraint firstItem="afN-cs-omZ" firstAttribute="top" secondItem="NkL-Dt-SdN" secondAttribute="top" id="iZx-Ng-TmT"/>
+                                    <constraint firstAttribute="height" constant="30" id="lbf-pd-XdP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NkL-Dt-SdN" secondAttribute="bottom" id="1YZ-g4-wwf"/>
+                            <constraint firstItem="Aq9-LU-EB1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QVK-u2-wgs"/>
+                            <constraint firstItem="NkL-Dt-SdN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fkU-JO-O0E"/>
+                            <constraint firstItem="Aq9-LU-EB1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="oyA-wT-FkU"/>
+                            <constraint firstAttribute="trailing" secondItem="NkL-Dt-SdN" secondAttribute="trailing" id="s4z-1b-aOb"/>
+                            <constraint firstAttribute="trailing" secondItem="Aq9-LU-EB1" secondAttribute="trailing" id="tvp-26-4Dj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomView" destination="NkL-Dt-SdN" id="AdM-hK-lXv"/>
+                        <outlet property="countLabel" destination="afN-cs-omZ" id="PWk-qN-agE"/>
+                        <outlet property="textView" destination="Aq9-LU-EB1" id="F41-8D-nuj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
